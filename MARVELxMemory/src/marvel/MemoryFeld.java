@@ -87,7 +87,7 @@ public class MemoryFeld {
 		spielstaerke = 10;
 		
 		//de aktuellen Spieler setzen
-		player = ("@JOEL");
+		player = ("@YOU");
 	
 		//es gibt keine gemerkten Karten
 		for (int aussen = 0; aussen < 2; aussen++)
@@ -103,7 +103,7 @@ public class MemoryFeld {
 		menschPunkteLabel = new Label();
 		computerPunkteLabel = new Label();
 		amZugLabel = new Label();
-		schummeln = new Button("TRICK-17");
+		schummeln = new Button("CHEATING");
 		schummeln.setOnAction(new TimerHandler());
 		menschPunkteLabel.setText(Integer.toString(menschPunkte));
 		computerPunkteLabel.setText(Integer.toString(computerPunkte));
@@ -112,11 +112,11 @@ public class MemoryFeld {
 		//in zwei Spalten anzeigen
 		GridPane tempGrid = new GridPane();
 		//und einfügen, dabei werden die Koordinaten angegeben
-		tempGrid.add(new Label("Spieler: "), 0 , 0 );
+		tempGrid.add(new Label("Player: "), 0 , 0 );
 		tempGrid.add(menschPunkteLabel, 1, 0);
-		tempGrid.add(new Label("Computer: "), 0, 1);
+		tempGrid.add(new Label("Bot: "), 0, 1);
 		tempGrid.add(computerPunkteLabel, 1 ,1);
-		tempGrid.add(new Label("Am Zug: "), 0, 2);
+		tempGrid.add(new Label("OnTurn: "), 0, 2);
 		tempGrid.add(amZugLabel, 1, 2);
 		tempGrid.add(schummeln, 0, 4);
 		feld.getChildren().add(tempGrid);
@@ -236,16 +236,16 @@ public class MemoryFeld {
  		if(menschPunkte > computerPunkte)
  			//dann Spieler als Gewinner 
  			//zwischenapeichern,
- 			winner = ("@JOEL");
+ 			winner = ("@YOU");
  		else
  			//wenn nicht dann Computer 
  			//als Gewinner markieren
- 			winner = ("@BOT");
+ 			winner = ("@MrROBOT");
  		
 		//den Dialog erzeugen
  		Alert meinDialog = new Alert(AlertType.INFORMATION, "Der Gewinner dieser Partie ist: " + winner);
  		//den Text setzen
- 		meinDialog.setHeaderText("GEWINNER");
+ 		meinDialog.setHeaderText("WINNER");
  		// und anzeigen
  		meinDialog.showAndWait();
  		//und den Dialog zurück geben
@@ -276,7 +276,7 @@ public class MemoryFeld {
 				//Button ausblenden und
 				schummeln.setVisible(false);
 				//aktuellen Spieler Maschine setzen
-				this.player = ("@BOT");
+				this.player = ("@MrROBOT");
 				//und im Label ausgeben
 				amZugLabel.setText(player);
 			computerZug();
@@ -288,7 +288,7 @@ public class MemoryFeld {
 				//Button einblenden
 				schummeln.setVisible(true);
 				//aktuellen Spieler Mensch setzen
-				this.player = ("@JOEL");
+				this.player = ("@YOU");
 				//und im Label ausgeben.
 				amZugLabel.setText(player);
 			}		
