@@ -3,4 +3,4 @@
 ![M-M-FX2](https://user-images.githubusercontent.com/83019866/119243516-ba816580-bb67-11eb-9392-23fa1378868b.png)
 ![M-M-FX3](https://user-images.githubusercontent.com/83019866/119243518-bc4b2900-bb67-11eb-9805-7eaf81955d10.png)
 # MARVELxMemory
-A JavaFX based MARVEL-Memory Application the Kids are loved into ...🦸🏼‍😎👀 Now its have a hidden EasterEgg which you need to find and forces your way to win .. 🙃
+A JavaFX based MARVEL-Memory Application the Kids are loved into ...🦸🏼‍😎👀 Now its have a hidden EasterEgg which you need to find to force your way to win .. 🙃
