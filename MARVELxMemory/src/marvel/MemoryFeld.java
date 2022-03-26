@@ -14,7 +14,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
 import javafx.util.Duration;
-
+//Das Spielfeld
 public class MemoryFeld {
 	//eine innere Klasse für den Eventhandler des Timer
 	class TimerHandler implements EventHandler<ActionEvent> {
