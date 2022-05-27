@@ -29,6 +29,7 @@ public class MarvelMemoryFX extends Application{
 		meineStage.show();
 	}
 	
+	//übergibt die Stage
 	public static void main(String[] args) {
 		//der Start
 		launch(args);
