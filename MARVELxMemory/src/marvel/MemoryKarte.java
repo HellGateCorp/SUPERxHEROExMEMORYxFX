@@ -74,11 +74,13 @@ public class MemoryKarte extends Button {
 	//die Methode zeigt die Rückseite der Karte an
 	public void rueckseiteZeigen(boolean rausnehmen) {
 		//soll die Karten komplett aus dem Spiel genommen werden?
+		//wenn ..
 		if (rausnehmen == true) {
 			//das Bild aufgedeckt zeigen und die Karte aus dem Spiel nehmen
 			setGraphic(new ImageView("icons/a.jpg"));
 			nochImSpiel = false;
 		}
+		//dann 
 		else {
 			//sonst nur die Rückseite zeigen
 			setGraphic(bildHinten);
