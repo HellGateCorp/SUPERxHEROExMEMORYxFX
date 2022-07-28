@@ -1,6 +1,8 @@
+# VERSION 2.0
+![sc1](https://user-images.githubusercontent.com/83019866/181458769-c4f908de-bea6-41ae-968a-74a7fd3db7b5.jpg)
+![sc2](https://user-images.githubusercontent.com/83019866/181458803-178f369d-9ccb-43dc-836e-28db170833b1.jpg)
+![sc3](https://user-images.githubusercontent.com/83019866/181458838-1f1337da-9091-49d0-bfd4-62d45bd1eaca.jpg)
 
-![M-M-FX](https://user-images.githubusercontent.com/83019866/119243515-b8b7a200-bb67-11eb-8d7c-47582ab09be7.png)
-![M-M-FX2](https://user-images.githubusercontent.com/83019866/119243516-ba816580-bb67-11eb-9392-23fa1378868b.png)
-![M-M-FX3](https://user-images.githubusercontent.com/83019866/119243518-bc4b2900-bb67-11eb-9805-7eaf81955d10.png)
-# MARVELxMemory
-A JavaFX based MARVEL-Memory Application the Kids are loved into ...🦸🏼‍♂️⚡️🌪 Now its have a hidden EasterEgg which you need to find to force your way to win .. 🤖🐣 At the Moment it has only a Single-player Mode, 1 vs 1 are still in Progress ...
+# SUPERxHEROExMEMORYxFX
+
+Next generation of a JavaFX based Super Heroe Memory Game, now shipped with funny special Effects, Sounds and an unique taste of the good old 90's(...you can't find on the screenshots)! 🦹🏻‍♂️👾⚡️
