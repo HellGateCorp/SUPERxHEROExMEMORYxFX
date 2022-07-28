@@ -1,7 +1,7 @@
 # VERSION 2.0
-![sc1](https://user-images.githubusercontent.com/83019866/181458769-c4f908de-bea6-41ae-968a-74a7fd3db7b5.jpg)
-![sc2](https://user-images.githubusercontent.com/83019866/181458803-178f369d-9ccb-43dc-836e-28db170833b1.jpg)
-![sc3](https://user-images.githubusercontent.com/83019866/181458838-1f1337da-9091-49d0-bfd4-62d45bd1eaca.jpg)
+![sc1](https://user-images.githubusercontent.com/83019866/181459409-db2fc461-8a90-4ff4-97c3-984c58df15fe.jpg)
+![sc2](https://user-images.githubusercontent.com/83019866/181459394-41e08f39-d97b-4233-bb4f-c4f3ddc51bc7.jpg)
+![sc3](https://user-images.githubusercontent.com/83019866/181459398-9dace4f9-8658-4d7b-8d4d-71ac03c62c63.jpg)
 
 # SUPERxHEROExMEMORYxFX
 
